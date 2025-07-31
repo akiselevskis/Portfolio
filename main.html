@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Your Name | Portfolio</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background-color: #f5f5f5;
+      color: #333;
+    }
+    header {
+      text-align: center;
+      padding: 2rem;
+      background-color: #fff;
+      box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    }
+    header h1 {
+      margin: 0;
+      font-size: 2.5rem;
+    }
+    header p {
+      margin-top: 0.5rem;
+      font-size: 1.2rem;
+    }
+    .buttons {
+      margin-top: 1rem;
+    }
+    .buttons a {
+      margin: 0 0.5rem;
+      text-decoration: none;
+      padding: 0.5rem 1rem;
+      border: 1px solid #333;
+      border-radius: 4px;
+      background-color: #fff;
+      color: #333;
+      transition: background-color 0.3s ease;
+    }
+    .buttons a:hover {
+      background-color: #333;
+      color: #fff;
+    }
+    .projects {
+      max-width: 800px;
+      margin: 2rem auto;
+      padding: 0 1rem;
+    }
+    .project {
+      background-color: #fff;
+      border-radius: 8px;
+      box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+      padding: 1rem;
+      margin-bottom: 1rem;
+    }
+    .project h3 {
+      margin-top: 0;
+    }
+    footer {
+      text-align: center;
+      font-size: 0.9rem;
+      color: #777;
+      padding: 2rem 0;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Your Name</h1>
+    <p>Passionate Web Developer</p>
+    <div class="buttons">
+      <a href="mailto:you@example.com">Email</a>
+      <a href="https://github.com/yourusername" target="_blank">GitHub</a>
+      <a href="https://linkedin.com/in/yourusername" target="_blank">LinkedIn</a>
+    </div>
+  </header>
+
+  <section class="projects">
+    <h2>Projects</h2>
+    <div class="project">
+      <h3>Project One</h3>
+      <p>A brief description of what this project is about.</p>
+    </div>
+    <div class="project">
+      <h3>Project Two</h3>
+      <p>A brief description of what this project is about.</p>
+    </div>
+  </section>
+
+  <footer>
+    &copy; <span id="year"></span> Your Name. All rights reserved.
+  </footer>
+
+  <script>
+    // Set current year in footer
+    document.getElementById('year').textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
